@@ -14,10 +14,30 @@ dependencies:
   freezed_annotation: ^2.4.1
   json_annotation: ^4.9.0
   dio: ^5.4.0
+  shared_preferences: ^2.2.2
+  line_icons: ^2.0.1
+  google_fonts: ^6.2.1
 
 dev_dependencies:
+  flutter_lints: ^3.0.1
   build_runner: ^2.4.12
   freezed: ^2.5.7
   json_serializable: ^6.9.2
   riverpod_generator: ^2.3.9
   very_good_analysis: ^5.1.0
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.4.0
+
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/appicon.png"
+
+
+flutter_native_splash:
+  color: "#1f6894" 
+  icon_background_color: "#1f6894"
+  image: "assets/icon/splashicon.png"
+  android: true
+  ios: true
