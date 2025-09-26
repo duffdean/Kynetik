@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
+import 'package:kynetik/features/bookings/presentation/bookings_page.dart';
 
 import '../features/auth/presentation/pages/login_page.dart';
 import '../features/home/presentation/pages/home_page.dart';
@@ -29,6 +30,8 @@ final appRouterProvider = Provider<GoRouter>((ref) {
       GoRoute(path: '/', builder: (context, state) => const HomePage()),
       GoRoute(path: '/login', builder: (context, state) => const LoginPage()),
       GoRoute(path: '/plans', builder: (context, state) => const PlansPage()),
+      GoRoute(
+          path: '/bookings', builder: (context, state) => const BookingsPage()),
       GoRoute(
           path: '/progress', builder: (context, state) => const ProgressPage()),
     ],

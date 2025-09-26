@@ -50,8 +50,8 @@ class HomePage extends ConsumerWidget {
                 children: [
                   FeatureCard(
                     icon: LineIcons.dumbbell,
-                    title: 'My Plans',
-                    onTap: () => context.push('/plans'),
+                    title: 'Bookings',
+                    onTap: () => context.push('/bookings'),
                   ),
                   FeatureCard(
                     icon: LineIcons.utensils,
